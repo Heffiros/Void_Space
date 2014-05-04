@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{34C12173-1DEC-D674-AA94-C494214245DF}</ProjectGuid>
+	<ProjectGuid>{2B696F12-3C25-006C-B838-D36B0F204C40}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -76,6 +76,7 @@
      <Compile Include="Assets\space_void_menu\Script\choose_purple.cs" />
      <Compile Include="Assets\space_void_menu\Script\music.cs" />
      <Compile Include="Assets\space_void_menu\Script\rot.cs" />
+     <Compile Include="Assets\space_void_pause\pause.cs" />
      <Compile Include="Assets\space_void_planet\choose.cs" />
      <Compile Include="Assets\space_void_planet\life.cs" />
      <Compile Include="Assets\space_void_planet\rotation.cs" />
