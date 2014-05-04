@@ -70,12 +70,14 @@
      <Compile Include="Assets\space_void_fight_ice 1\enemy.cs" />
      <Compile Include="Assets\space_void_fight_ice 1\heromove.cs" />
      <Compile Include="Assets\space_void_fight_ice 1\ontouchice.cs" />
+     <Compile Include="Assets\space_void_gameover\exit_game.cs" />
      <Compile Include="Assets\space_void_menu\Script\Asteroid.cs" />
      <Compile Include="Assets\space_void_menu\Script\Asteroid1.cs" />
      <Compile Include="Assets\space_void_menu\Script\choose_purple.cs" />
      <Compile Include="Assets\space_void_menu\Script\music.cs" />
      <Compile Include="Assets\space_void_menu\Script\rot.cs" />
      <Compile Include="Assets\space_void_planet\choose.cs" />
+     <Compile Include="Assets\space_void_planet\life.cs" />
      <Compile Include="Assets\space_void_planet\rotation.cs" />
      <Compile Include="Assets\space_void_planet\ship_invoke.cs" />
      <Compile Include="Assets\space_void_transition\Shipmovement.cs" />

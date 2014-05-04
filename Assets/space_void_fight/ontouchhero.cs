@@ -5,7 +5,7 @@ public class ontouchhero : MonoBehaviour {
 	public int life;
 	void OnTriggerEnter(Collider other){
 		Destroy (other.gameObject);
-		life -= planet.fire_degat;
+		SpaceShip.life -= planet.fire_degat;
 	}
 	// Use this for initialization
 	void Start () {
@@ -14,10 +14,10 @@ public class ontouchhero : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(life < 1)
+		if(SpaceShip.life < 1)
 		{
 			Destroy (shipmovementfight.controler);
-			Application.LoadLevel("menu");
+			Application.LoadLevel("Gameover");
 		}
 	}
 }

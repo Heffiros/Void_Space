@@ -34,25 +34,25 @@ public class choose_purple : MonoBehaviour {
 				if(myhit.collider.gameObject.name == "SciFi_Fighter_AK5")
 				{
 					SpaceShip.ship_name = myhit.collider.gameObject.name;
-					SpaceShip.life = 150;
+					SpaceShip.life = 300;
 					SpaceShip.exp = 0;
 					SpaceShip.highp = SpaceShip.level * 150;
 					SpaceShip.level = 1;
 					SpaceShip.armor = 50;
-					SpaceShip.element = "ice";
-					SpaceShip.degat = 10;
+					SpaceShip.element = "earth";
+					SpaceShip.degat = 5;
 					Application.LoadLevel ("space_void_transition");
 				}
 				else if (myhit.collider.gameObject.name == "vehicle_enemyShip")
 				{
 					SpaceShip.ship_name = myhit.collider.gameObject.name;
-					SpaceShip.life = 300;
+					SpaceShip.life = 200;
 					SpaceShip.exp = 0;
 					SpaceShip.highp = SpaceShip.level * 150;
 					SpaceShip.level = 1;
 					SpaceShip.armor = 60;
-					SpaceShip.element = "earth";
-					SpaceShip.degat = 5;
+					SpaceShip.element = "ice";
+					SpaceShip.degat = 15;
 					Application.LoadLevel ("space_void_transition");
 				}
 			}

@@ -17,7 +17,7 @@ public class heromove : MonoBehaviour {
 		if(life2 < 1)
 		{
 			Destroy (shipmovementfight.controler);
-			Application.LoadLevel("menu");
+			Application.LoadLevel("Gameover");
 		}
 }
 }
